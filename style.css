@@ -182,10 +182,15 @@ footer {
 }
 */
 
-/h*formulário de contato */
+/*
+   ALTERAÇÕES DO FORMULÁRIO DE CONTATO
+   - ajuste da área de contato
+   - organização visual dos campos e botão
+   - correção de syntax na regra do bloco
+*/
 #contato {
     background-color: #5c2a2a;
-    padding: 40px
+    padding: 40px;
     margin-top: 30px;
 }
 
@@ -193,19 +198,26 @@ footer {
     text-align: center;
     margin-bottom: 30px;
 }
-/*formulário de contato */
+
+/*
+   FORMULÁRIO DE CONTATO
+   define a largura e centralização do formulário
+*/
 #contato form {
     max-width: 600px;
-    margin:  auto;
+    margin: auto;
 }
 
-/*texto dos campos do formulário */
+/*
+   CAMPOS DO FORMULÁRIO
+   deixa os rótulos alinhados à esquerda e os inputs com aparência consistente
+*/
 #contato label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
 }
-/*campos de texto */
+
 #contato input,
 #contato textarea {
     width: 100%;
@@ -215,16 +227,23 @@ footer {
     font-size: 16px;
 }
 
-/*area da mensagem*/
+/*
+   ÁREA DE MENSAGEM
+   permite que o usuário ajuste a altura da caixa de texto
+*/
 #contato textarea {
     resize: vertical;
 }
-/*botão*/
+
+/*
+   BOTÃO DE ENVIO
+   mantém o botão com visual similar aos demais elementos da página
+*/
 #contato button {
-   width: 100%;
-   margin-top: 20px ;
-   padding: 12px;
-   background-color: #f1e4e4;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #f1e4e4;
     color: #5c2a2a;
     border: none;
     border-radius: 5px;
